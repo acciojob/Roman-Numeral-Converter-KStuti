@@ -1,4 +1,4 @@
-unction convertToRoman(num) {
+function convertToRoman(num) {
   const obj = [
     ['M', 1000],
     ['CM', 900],
@@ -11,7 +11,7 @@ unction convertToRoman(num) {
     ['X', 10],
     ['IX', 9],
     ['V', 5],
-    ['IV', 4],  // change this line
+    ['IV', 4],  
     ['I', 1]
   ];
 
