@@ -16,13 +16,19 @@ function convertToRoman(num) {
   ];
 
   let result = '';
-  for (let i of obj) {
+  for (let i of obj) 
+  {
     let [symbol, value] = i;
 
-    while (num >= value) {
+    while (num >= value) 
+	{
       result += symbol;
       num -= value;
     }
   }
   return result;
 }
+
+console.log(convertToRoman(36));
+
+module.exports = convertToRoman;
